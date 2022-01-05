@@ -1,0 +1,11 @@
+POST http://localhost:8080/todo HTTP/1.1
+content-type: application/json
+
+
+{
+    "description": "sdsa",
+    "creationDate": "2020-01-01T00:00:00.000Z",
+    "completed" : true
+}
+
+DELETE http://localhost:8080/todo/2 HTTP/1.1
